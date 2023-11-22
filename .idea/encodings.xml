@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ClientNotificationService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ClientNotificationService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonDtos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonDtos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommonGrpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CourierService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CourierService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CustomerService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CustomerService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RestaurantService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RestaurantService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc83100a-2ac0-4a33-aff8-f21e1d59053d" name="Changes" comment="Add CourierService">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/StreamConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/enums/DishStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/model/Preference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/ClientNotificationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/ClientNotificationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/BytesToSubscriptionDataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/converter/BytesToSubscriptionDataConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/SubscriptionDataToBytesConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/converter/SubscriptionDataToBytesConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/annotation/OAuth2User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/resolver/oAuth/OAuth2User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/config/annotation/OAuth2UserProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/resolver/oAuth/OAuth2UserResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/listeners/RabbitMQListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/repository/SubscriptionDataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/service/DefaultEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/java/com/example/clientnotificationservice/service/DefaultEmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientNotificationService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ClientNotificationService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDtos/src/main/java/org/example/commondtos/annotation/OAuth2User.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDtos/src/main/java/org/example/commondtos/resolver/OAuth2User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDtos/src/main/java/org/example/commondtos/annotation/OAuth2UserProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDtos/src/main/java/org/example/commondtos/resolver/OAuth2UserProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDtos/src/main/java/org/example/commondtos/event/OrderEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDtos/src/main/java/org/example/commondtos/event/OrderEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonGrpc/src/main/proto/RestaurantWorkingTimeService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/CommonGrpc/src/main/proto/RestaurantService.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/annotation/OAuth2User.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/resolver/OAuth2User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/annotation/OAuth2UserProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/resolver/OAuth2UserProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/config/CancelOrderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/config/CancelOrderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/controller/DeliveryOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/controller/DeliveryOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/service/gRPC/CourierGrpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/service/gRPC/CourierGrpcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/service/impl/CourierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/service/impl/CourierServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/service/impl/DeliveryOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/java/com/example/courierservice/service/impl/DeliveryOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourierService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CourierService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerService/src/main/java/com/example/customerservice/config/MongoReactiveApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerService/src/main/java/com/example/customerservice/config/MongoReactiveApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerService/src/main/java/com/example/customerservice/service/consumer/RabbitMQConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerService/src/main/java/com/example/customerservice/consumer/RabbitMQConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerService/src/main/java/com/example/customerservice/utils/OrderStatusProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerService/src/main/java/com/example/customerservice/utils/OrderStatusProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/config/GrpcClientConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/config/GrpcClientConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/config/StreamConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/config/StreamHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/controller/ConsumerOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/controller/ConsumerOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/mapper/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/TimestampService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/TimestampService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/gRPC/CourierGrpcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/gRPC/CourierGrpcService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/order/ConsumerOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/order/ConsumerOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/order/CourierOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/com/example/orderservice/service/order/CourierOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/config/ScheduledTaskExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/config/ScheduledTaskExecutorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/model/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/model/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/service/gRPC/MyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/service/gRPC/RestaurantWorkingTimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/RestaurantService/src/main/java/com/example/restaurantservice/service/impl/gRPC/RestaurantGrpcServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native-community/cli-platform-android">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/food-delivery-front/node_modules/react-native">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/myapplication">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="react-native-gradle-plugin" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="react-native-gradle-plugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="react-native-gradle-plugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="react-native-gradle-plugin" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.jpb.AbstractClassKotlin" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="45374610-5d21-40a9-951d-dc7005c9e9df" />
+        <option name="url" value="https://github.com/konarrty/FoodDeliveryService.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2VURdLKCt9i4QnSrWOiARY7yVnp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/FoodDeliveryService/CustomerService/src/main/java/com/example/customerservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4c4bc183cbf88317b26bf8c70c8c11e8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.restaurantservice.enums" />
+      <recent name="com.example.orderservice.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\FoodDeliveryService\CustomerService\src\main\java\com\example\customerservice" />
+      <recent name="C:\Users\User\Desktop\FoodDeliveryService\CustomerService\src\main\java\com\example\customerservice\dto\order" />
+      <recent name="C:\Users\User\Desktop\FoodDeliveryService\OrderService\src\main\resources" />
+      <recent name="C:\Users\User\Desktop\FoodDeliveryService\CourierService\src\main\resources" />
+      <recent name="C:\Users\User\Desktop\FoodDeliveryService\ClientNotificationService\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.restaurantservice.model" />
+      <recent name="com.example.customerservice.model" />
+      <recent name="org.example.commondtos.event" />
+      <recent name="com.example.clientnotificationservice.config" />
+      <recent name="com.example.courierservice.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RestaurantServiceApplication">
+    <configuration name="gradle-plugin [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradle-plugin [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradle-plugin [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradle-plugin [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradle-plugin [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/food-delivery-front/node_modules/@react-native/gradle-plugin" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ClientNotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ClientNotificationService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientnotificationservice.ClientNotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CourierService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.courierservice.CourierServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CustomerService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customerservice.CustomerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="OrderService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="RestaurantService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.restaurantservice.RestaurantServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.gradle-plugin [buildDependents]" />
+        <item itemvalue="Gradle.gradle-plugin [assemble]" />
+        <item itemvalue="Gradle.gradle-plugin [jar]" />
+        <item itemvalue="Gradle.gradle-plugin [clean]" />
+        <item itemvalue="Gradle.gradle-plugin [classes]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc83100a-2ac0-4a33-aff8-f21e1d59053d" name="Changes" comment="" />
+      <created>1694888760615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694888760615</updated>
+      <workItem from="1694888762423" duration="57000" />
+      <workItem from="1694888832051" duration="10944000" />
+      <workItem from="1694904403927" duration="162000" />
+      <workItem from="1694904579110" duration="817000" />
+      <workItem from="1694954175284" duration="321000" />
+      <workItem from="1694954530895" duration="12459000" />
+      <workItem from="1695015337567" duration="23554000" />
+      <workItem from="1695118772620" duration="15012000" />
+      <workItem from="1695142017014" duration="6555000" />
+      <workItem from="1695209783299" duration="13524000" />
+      <workItem from="1695259112460" duration="1201000" />
+      <workItem from="1695381029201" duration="2034000" />
+      <workItem from="1695475041297" duration="149000" />
+      <workItem from="1695504057553" duration="1498000" />
+      <workItem from="1695781613264" duration="1608000" />
+      <workItem from="1695784472086" duration="134000" />
+      <workItem from="1695937049571" duration="302000" />
+      <workItem from="1696179656099" duration="1307000" />
+      <workItem from="1696604385697" duration="223000" />
+      <workItem from="1696604910298" duration="1096000" />
+      <workItem from="1696606044641" duration="569000" />
+      <workItem from="1696606673128" duration="209000" />
+      <workItem from="1696607155782" duration="49000" />
+      <workItem from="1696607227619" duration="12000" />
+      <workItem from="1696689038741" duration="171000" />
+      <workItem from="1696689537108" duration="1234000" />
+      <workItem from="1696694287548" duration="60000" />
+      <workItem from="1696959136367" duration="901000" />
+      <workItem from="1697128521573" duration="18000" />
+      <workItem from="1697129295766" duration="632000" />
+      <workItem from="1697147938374" duration="10000" />
+      <workItem from="1697190790156" duration="6547000" />
+      <workItem from="1697219830459" duration="1341000" />
+      <workItem from="1697221403572" duration="746000" />
+      <workItem from="1697233601464" duration="7946000" />
+      <workItem from="1697323284777" duration="18000" />
+      <workItem from="1697368174909" duration="1098000" />
+      <workItem from="1697376513640" duration="217000" />
+      <workItem from="1697649405602" duration="215000" />
+      <workItem from="1697834962723" duration="337000" />
+      <workItem from="1697930668671" duration="48000" />
+      <workItem from="1699148137272" duration="938000" />
+      <workItem from="1699149380722" duration="1675000" />
+      <workItem from="1699151642821" duration="13711000" />
+      <workItem from="1699234156491" duration="11027000" />
+      <workItem from="1699366566126" duration="231000" />
+      <workItem from="1699366854386" duration="291000" />
+      <workItem from="1699382312416" duration="149000" />
+      <workItem from="1699904536799" duration="4111000" />
+      <workItem from="1699908991559" duration="26000" />
+      <workItem from="1700290654328" duration="1314000" />
+      <workItem from="1700292383466" duration="181000" />
+      <workItem from="1700435130010" duration="1864000" />
+      <workItem from="1700456611357" duration="88000" />
+      <workItem from="1700491356003" duration="4845000" />
+      <workItem from="1700613660099" duration="2001000" />
+      <workItem from="1700632432205" duration="3047000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1694903428417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694903428417</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1694903820653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694903820653</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1694903878752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694903878752</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1694904260786</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694904260786</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initialize project using Create React App">
+      <option name="closed" value="true" />
+      <created>1694904721497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694904721497</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add CourierService">
+      <option name="closed" value="true" />
+      <created>1695035754333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695035754333</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add CourierService">
+      <option name="closed" value="true" />
+      <created>1699167432252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699167432252</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initialize project using Create React App" />
+    <MESSAGE value="Add CourierService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CourierService" />
+  </component>
+</project>
